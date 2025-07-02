@@ -1,0 +1,50 @@
+@use "../assets/variables" as *;
+
+.app-container {
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: $body-white;
+  color: $black;
+}
+
+.nav-menu {
+  background-color: $menu-white;
+  padding: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: $green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.counter-section {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.counter-text {
+  color: $grey;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: $green;
+  color: $white;
+  border: none;
+  cursor: pointer;
+}

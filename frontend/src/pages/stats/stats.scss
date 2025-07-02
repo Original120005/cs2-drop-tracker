@@ -1,0 +1,18 @@
+@use "../../assets/variables" as *;
+
+.stats-container {
+  padding: 2rem;
+  background-color: $body-white;
+  text-align: center;
+}
+
+.stats-title {
+  color: $green;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.stats-text {
+  color: $grey;
+  font-size: 1.2rem;
+}

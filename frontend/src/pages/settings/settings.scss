@@ -1,0 +1,18 @@
+@use "../../assets/variables" as *;
+
+.settings-container {
+  padding: 2rem;
+  background-color: $body-white;
+  text-align: center;
+}
+
+.settings-title {
+  color: $green;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.settings-text {
+  color: $grey;
+  font-size: 1.2rem;
+}

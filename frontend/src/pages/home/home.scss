@@ -1,0 +1,18 @@
+@use "../../assets/variables" as *;
+
+.home-container {
+  padding: 2rem;
+  background-color: $body-white;
+  text-align: center;
+}
+
+.home-title {
+  color: $green;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home-text {
+  color: $grey;
+  font-size: 1.2rem;
+}
